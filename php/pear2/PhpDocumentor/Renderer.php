@@ -15,7 +15,7 @@
 namespace pear2\PhpDocumentor;
 
 /**
- * Tokenizes PHP source code and associates doc blocks with the proper object.
+ * Base for outputting the documentation tree.
  *
  * @category  ToolsAndUtilities
  * @package   PhpDocumentor
@@ -25,7 +25,7 @@ namespace pear2\PhpDocumentor;
  * @link      http://www.phpdoc.org
  * @link      http://pear.php.net/PhpDocumentor
  */
-class Tokenizer {
+abstract class Renderer {
 }
 
 ?>

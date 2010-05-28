@@ -15,7 +15,7 @@
 namespace pear2\PhpDocumentor;
 
 /**
- * Tokenizes PHP source code and associates doc blocks with the proper object.
+ * Base class for storage methods (SQLite, Memory) when building the documentation.
  *
  * @category  ToolsAndUtilities
  * @package   PhpDocumentor
@@ -25,7 +25,7 @@ namespace pear2\PhpDocumentor;
  * @link      http://www.phpdoc.org
  * @link      http://pear.php.net/PhpDocumentor
  */
-class Tokenizer {
+abstract class Storage {
 }
 
 ?>

@@ -21,9 +21,6 @@ if (is_file(__DIR__ . '/php/pear2/Autoload.php')) {
 
 try {
 	$testFile = __DIR__ . '/php/pear2/PhpDocumentor/Resource.php';
-
-	$tokenizer = new \pear2\PhpDocumentor\Tokenizer();
-	$resource = $tokenizer->toResource($testFile);
 } catch (\Exception $e) {
 	echo '*** Fatal Error: ' . $e->getMessage() . "\n\n";
 }
