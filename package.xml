@@ -26,6 +26,12 @@
 	</stability>
 	<license filesource="LICENSE">BSD</license>
 	<contents>
-		<!-- This whole section sucks -->
+		<dir name="/">
+			<dir name="src/">
+				<dir name="Tags/">
+					<file name="Base.php" role=""/>
+				</dir>
+			</dir>
+		</dir>
 	</contents>
 </package>

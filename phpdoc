@@ -3,14 +3,13 @@
 /**
  * PhpDocumentor is a JavaDoc-like documentation tool for PHP.
  *
- * @category  ToolsAndUtilities
- * @package   PhpDocumentor
- * @author    PhpDocumentor Team
- * @copyright 2010 PhpDocumentor Team
- * @license   http://www.opensource.org/licenses/bsd-license.php BSD
- * @filesource
- * @link      http://www.phpdoc.org
- * @link      http://pear.php.net/PhpDocumentor
+ * @category	ToolsAndUtilities
+ * @package		phpDocumentor2
+ * @subpackage	cli
+ * @author    	James Logsdon
+ * @copyright 	2010 phpDocumentor2 Team
+ * @license   	http://www.opensource.org/licenses/bsd-license.php BSD
+ * @link      	http://www.github.com/mfacenet/phpdocumentor
  */
 
 // TODO: Need to check include path if the class loader if it does not exist relative to this file.
