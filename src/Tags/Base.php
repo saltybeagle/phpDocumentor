@@ -17,12 +17,21 @@ namespace \PEAR2\phpDocumentor2\Tags;
  * This abstract base implements the decorator pattern
  * allowing users to create new tags and changing the patterns
  * of the tags.
- * 
+ * 770 461 9700
  * @author 		Shawn Stratton <sstratton@php.net>
  * @abstract
  */
 abstract class Base {
-	abstract public function render() {
-
+	protected $_tagContents;
+	
+	public function __construct($contents = null) {
+		
+	}
+	
+	public function setContents($contents) {
+		$this->_tagContents = $contents;
+	}
+	public function render() {
+		echo $this->_tagContents;
 	}
 }
