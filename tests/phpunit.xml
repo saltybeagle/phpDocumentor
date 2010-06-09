@@ -7,15 +7,14 @@
 	testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader">
 	<testsuites>
 		<testsuite name="AllTests">
-			<directory>./</directory>
+			<directory>src/</directory>
 		</testsuite>
 	</testsuites>
 	<filter>
 		<whitelist>
-			<directory suffix=".php">./</directory>
+			<directory suffix=".php">src/</directory>
 			<exclude>
-				<directory suffix=".phtml">./</directory>
-				<file>bootstrap.php</file>
+				<directory suffix=".phtml">src/</directory>
 			</exclude>
 		</whitelist>
 	</filter>
