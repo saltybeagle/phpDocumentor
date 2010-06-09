@@ -1,6 +1,6 @@
 <?php
 
-namespace \PEAR2\phpDocumentor2;
+namespace PEAR2\phpDocumentor2;
 
 class core {
 
