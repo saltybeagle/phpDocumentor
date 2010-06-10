@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit backupGlobals="false" backupStaticAttributes="true"
-	bootstrap="./bootstrap.php" colors="false"
-	convertErrorsToExceptions="true" convertNoticesToExceptions="true"
-	convertWarningsToExceptions="true" processIsolation="true"
-	stopOnFailure="true" syntaxCheck="false"
-	testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader">
-	<testsuites>
-		<testsuite name="AllTests">
-			<directory>src/</directory>
-		</testsuite>
-	</testsuites>
-	<filter>
-		<whitelist>
-			<directory suffix=".php">src/</directory>
-			<exclude>
-				<directory suffix=".phtml">src/</directory>
-			</exclude>
-		</whitelist>
-	</filter>
+<phpunit backupGlobals="false"
+    backupStaticAttributes="false"
+    bootstrap="bootstrap.php"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertWarningsToExceptions="true"
+    convertNoticesToExceptions="true"
+    processIsolation="true"
+    stopOnFailure="true"
+    testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader">
+    <testsuites>
+        <testsuite name="AllTests">
+            <directory>src/</directory>
+        </testsuite>
+        <testsuite name="CliTests">
+            <directory>src/Cli</directory>
+        </testsuite>
+        <testsuite name="ParserTests">
+            <directory>src/Parser</directory>
+        </testsuite>
+        <testsuite name="TagTests">
+            <directory>src/Tags</directory>
+        </testsuite>
+        <testsuite name="TokenizerTests">
+            <directory>src/Tokenizer</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
 </phpunit>
