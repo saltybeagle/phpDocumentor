@@ -2,8 +2,8 @@
 
 use PEAR2\phpDocumentor2\Tags\Copyright;
 
-require '../../TestCase.php';
-require '../../../src/Tags/Copyright.php';
+require_once __DIR__ . '/../../TestCase.php';
+require_once __DIR__ . '/../../../src/Tags/Copyright.php';
 
 class CopyrightTest extends TestCase {
 }

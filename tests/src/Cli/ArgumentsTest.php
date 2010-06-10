@@ -2,8 +2,8 @@
 
 use PEAR2\phpDocumentor2\Cli\Arguments;
 
-require '../../TestCase.php';
-require '../../../src/Cli/Arguments.php';
+require_once __DIR__ . '/../../TestCase.php';
+require_once __DIR__ . '/../../../src/Cli/Arguments.php';
 
 class ArgumentsTest extends TestCase {
 }

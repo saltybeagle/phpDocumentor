@@ -2,8 +2,8 @@
 
 use PEAR2\phpDocumentor2\Tags\Filesource;
 
-require '../../TestCase.php';
-require '../../../src/Tags/Filesource.php';
+require_once __DIR__ . '/../../TestCase.php';
+require_once __DIR__ . '/../../../src/Tags/Filesource.php';
 
 class FilesourceTest extends TestCase {
 }

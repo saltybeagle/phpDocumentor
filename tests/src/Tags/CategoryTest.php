@@ -2,8 +2,8 @@
 
 use PEAR2\phpDocumentor2\Tags\Category;
 
-require '../../TestCase.php';
-require '../../../src/Tags/Category.php';
+require_once __DIR__ . '/../../TestCase.php';
+require_once __DIR__ . '/../../../src/Tags/Category.php';
 
 class CategoryTest extends TestCase {
 }

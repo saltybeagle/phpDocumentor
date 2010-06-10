@@ -2,8 +2,8 @@
 
 use PEAR2\phpDocumentor2\Tags\Link;
 
-require '../../TestCase.php';
-require '../../../src/Tags/Link.php';
+require_once __DIR__ . '/../../TestCase.php';
+require_once __DIR__ . '/../../../src/Tags/Link.php';
 
 class LinkTest extends TestCase {
 }
