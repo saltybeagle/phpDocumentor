@@ -4,7 +4,7 @@
  *
  * @package		phpDocumentor2
  * @subpackage	Tags
- * @author		Shawn Stratton <sstratton@php.net>
+ * @author		Shawn Stratton <sstratton@php.ne
  * @copyright	2010 phpDocumentor2 Team
  * @license   	http://www.opensource.org/licenses/bsd-license.php BSD
  * @link      	http://www.github.com/mfacenet/phpdocumentor
@@ -13,14 +13,14 @@
 namespace PEAR2\phpDocumentor2\Tags;
 
 class Returns extends Base {
-    /**
-     * Implementation of a Decoration Renderer
-     *  
-     * @return string 
-     */
-    public function render() {
-
-    }
+	/**
+	 * Implementation of a Decoration Renderer
+	 * 
+	 * @return string 
+	 */
+	public function render() {
+	
+	}
 }
 
 

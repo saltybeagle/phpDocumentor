@@ -2,6 +2,6 @@
 
 namespace PEAR2\phpDocumentor2\Tokenizer;
 
-class File implements File_Interface {
-
+interface File_Interface {
 }
+

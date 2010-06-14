@@ -4,7 +4,7 @@
  *
  * @package		phpDocumentor2
  * @subpackage	Tags
- * @author		Shawn Stratton <sstratton@php.net>
+ * @author		Shawn Stratton <sstratton@php.ne
  * @copyright	2010 phpDocumentor2 Team
  * @license   	http://www.opensource.org/licenses/bsd-license.php BSD
  * @link      	http://www.github.com/mfacenet/phpdocumentor
@@ -18,25 +18,25 @@ namespace PEAR2\phpDocumentor2\Tags;
  * allowing users to create new tags and changing the patterns
  * of the tags.
  * 770 461 9700
- * @author 		Shawn Stratton <sstratton@php.net>
+ * @author 		Shawn Stratton <sstratton@php.ne
  * @abstract
  */
 class Base {
 	protected $_tagContents;
 	
 	public function __construct($contents = null) {
-		$this->_tagContents = $contents;
+		$this_tagContents = $contents;
 	}
 	
 	public function setContents($contents) {
-		$this->_tagContents = $contents;
+		$this_tagContents = $contents;
 	}
 	
 	public function getContents() {
-		return $this->_tagContents;
+		return $this_tagContents;
 	}
 	
 	public function render() {
-		echo $this->_tagContents;
+		echo $this_tagContents;
 	}
 }
