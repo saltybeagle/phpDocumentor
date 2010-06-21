@@ -29,48 +29,12 @@ use PEAR2\phpDocumentor2\Console\ArgumentParser;
 class Runner
 {
     /**
-     * Instance of an ArgumentParser.
-     *
-     * @var PEAR2\phpDocumentor2\Console\ArgumentParser
-     */
-    protected $parser;
-
-    /**
      * Process the command line.
      *
      * @return void
      */
     public function run()
     {
-        $parser = $this->getParser();
-    }
-
-    /**
-     * Sets the argument parser. Argument parsers must extend the base class
-     * PEAR2\phpDocumentor2\Console\ArgumentParser.
-     *
-     * @param ArgumentParser $parser an ArgumentParser instance
-     *
-     * @return void
-     */
-    public function setParser(ArgumentParser $parser)
-    {
-        $this->parser = $parser;
-    }
-
-    /**
-     * Get the ArgumentParser for this instance. If one has not been injected
-     * instantiate the default.
-     *
-     * @return PEAR2\phpDocumentor2\Console\ArgumentParser the ArgumentParser instance
-     */
-    public function getParser()
-    {
-        if (empty($this->parser)) {
-            $this->parser = new ArgumentParser();
-        }
-
-        return $this->parser;
     }
 }
 
