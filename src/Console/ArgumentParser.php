@@ -337,9 +337,9 @@ class ArgumentParser
         // References used for parsing
         $refShort = array();
         $refLong = array();
-        $this->buildReferences('flag', &$refShort, &$refLong);
-        $this->buildReferences('option', &$refShort, &$refLong);
-        $this->buildReferences('stack', &$refShort, &$refLong);
+        $this->buildReferences('flag', $refShort, $refLong);
+        $this->buildReferences('option', $refShort, $refLong);
+        $this->buildReferences('stack', $refShort, $refLong);
 
         // Add an empty final argument so the loop can check for errors
         array_push($arguments, '');
