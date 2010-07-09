@@ -29,7 +29,7 @@ use PEAR2\phpDocumentor2\Parser\Tokenizer;
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
 class Sample
-    extends \PEAR2\phpDocumentor2\Events\Dispatcher
+    extends \PEAR2\phpDocumentor2\Console\Runner
     implements \Serializable
 {
     /**
