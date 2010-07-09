@@ -35,6 +35,14 @@ class Runner
      */
     public function run()
     {
+        $files = array(
+            dirname(dirname(__DIR__)) . '/tests/sample.php',
+        );
+
+        foreach ($files as $file) {
+            $t = new \PEAR2\phpDocumentor2\Parser\Tokenizer($file);
+            $t->tokenize();
+        }
     }
 }
 
