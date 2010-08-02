@@ -14,8 +14,6 @@
 
 namespace PEAR2\phpDocumentor2\Parser;
 
-use PEAR2\phpDocumentor2\Tokenizer\File;
-
 /**
  * PHP lexer
  *
@@ -51,7 +49,6 @@ class Tokenizer
 
     public function setFile($path)
     {
-        require_once $path;
         $this->path = $path;
         $this->setSource(file_get_contents($path));
     }
@@ -86,20 +83,21 @@ class Tokenizer
 
         $classes = array();
         $functions = array();
+        $namespace = null;
 
         while ($token = $this->nextToken()) {
             if ($token[0] === T_NAMESPACE) {
                 $this->parseUntil(T_WHITESPACE);
 
-                $namespace = trim($this->parseUntil(';'));
+                $namespace = trim($this->parseUntil(';')) . '\\';
                 continue;
             }
 
-            if ($token[0] === T_CLASS) {
+            if (in_array($token[0], array(T_CLASS, T_INTERFACE))) {
                 $this->parseUntil(T_WHITESPACE);
 
                 $class = $this->parseUntil(array(T_WHITESPACE, '{'));
-                $classes[] = $namespace . '\\' . trim($class);
+                $classes[] = $namespace . trim($class);
                 continue;
             }
 
@@ -108,9 +106,15 @@ class Tokenizer
                 $this->parseUntil(T_WHITESPACE);
 
                 $function = $this->parseUntil(array(T_WHITESPACE, '('));
-                $functions[] = $namespace . '\\' . trim($function);
+                $functions[] = $namespace . trim($function);
                 continue;
             }
+        }
+
+        if (isset($classes[0])) {
+            #echo $classes[0] . "\n";
+        } else {
+            echo $this->path . "\n";
         }
     }
 

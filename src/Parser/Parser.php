@@ -12,13 +12,12 @@
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
 
-namespace PEAR2\phpDocumentor2\Console;
+namespace PEAR2\phpDocumentor2\Parser;
 
-use PEAR2\phpDocumentor2\Console\ArgumentParser,
-    PEAR2\phpDocumentor2\Documentor;
+use PEAR2\phpDocumentor2\Parser\Tokenizer;
 
 /**
- * Command line runner
+ * PHP parser
  *
  * @category  ToolsAndUtilities
  * @package   phpDocumentor2
@@ -27,21 +26,12 @@ use PEAR2\phpDocumentor2\Console\ArgumentParser,
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
-class Runner
+class Parser
 {
-    public function findFiles($path)
+    public function parse($path)
     {
-    }
-
-    /**
-     * Process the command line.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        $builder = new Documentor('/home/jlogsdon/src/zf/library/Zend/Validator/Hostname');
-        $builder->run();
+        $tokenizer = new Tokenizer($path);
+        $tokenizer->tokenize();
     }
 }
 

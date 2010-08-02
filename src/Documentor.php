@@ -14,6 +14,9 @@
 
 namespace PEAR2\phpDocumentor2;
 
+use PEAR2\phpDocumentor2\Injector,
+    PEAR2\phpDocumentor2\Locator;
+
 /**
  * Documentation builder
  *
@@ -24,8 +27,38 @@ namespace PEAR2\phpDocumentor2;
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
-class Documentor
+class Documentor extends Injector
 {
+    protected $classes = array(
+        'locator' => 'PEAR2\phpDocumentor2\Locator\RegexLocator',
+        'renderer' => 'PEAR2\phpDocumentor2\Renderer\PhpTemplate',
+        'storage' => 'PEAR2\phpDocumentor2\Storage\SmartStorage',
+        'parser' => 'PEAR2\phpDocumentor2\Parser\Parser',
+    );
+
+    protected $locator;
+
+    protected $parser;
+
+    protected $path;
+
+    public function __construct($path)
+    {
+        if (!is_dir($path)) {
+            throw new Exception('Invalid path', compact('path'));
+        }
+
+        $this->path = $path;
+    }
+
+    public function run()
+    {
+        $files = $this->getLocator()->find($this->path);
+
+        foreach ($files as $file) {
+            $this->getParser()->parse($file);
+        }
+    }
 }
 
 ?>
