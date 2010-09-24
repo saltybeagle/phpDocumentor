@@ -19,9 +19,8 @@ namespace PEAR2\phpDocumentor2\Tags;
  * of the tags.
  * 770 461 9700
  * @author 		Shawn Stratton <sstratton@php.net>
- * @abstract
  */
-class Base {
+abstract class Base {
 	protected $_tagContents;
 	
 	public function __construct($contents = null) {
@@ -39,4 +38,7 @@ class Base {
 	public function render() {
 		echo $this->_tagContents;
 	}
+	
+	
+	
 }

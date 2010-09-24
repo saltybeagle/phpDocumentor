@@ -14,8 +14,8 @@
 
 namespace PEAR2\phpDocumentor2;
 
-use PEAR2\phpDocumentor2\Injector,
-    PEAR2\phpDocumentor2\Locator;
+use PEAR2\phpDocumentor2\Injector as Injector,
+    PEAR2\phpDocumentor2\Locatorn as Locator;
 
 /**
  * Documentation builder

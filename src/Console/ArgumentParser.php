@@ -344,12 +344,9 @@ class ArgumentParser
         // Add an empty final argument so the loop can check for errors
         array_push($arguments, '');
         $this->reset();
-
+		$ref = null;
         while (($arg = array_shift($arguments)) !== null) {
-            if (isset($ref)) {
-                unset($ref);
-            }
-
+            unset($ref);
             if (strpos($arg, '--') === 0) {
                 $name = substr($arg, 2);
 

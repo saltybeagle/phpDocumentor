@@ -40,7 +40,7 @@ class Runner
      */
     public function run()
     {
-        $builder = new Documentor('/home/jlogsdon/src/zf/library/Zend/Validator/Hostname');
+        $builder = new \PEAR2\phpDocumentor2\Documentor('/home/jlogsdon/src/zf/library/Zend/Validator/Hostname');
         $builder->run();
     }
 }
