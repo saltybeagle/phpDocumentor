@@ -8,6 +8,7 @@
  * @category  ToolsAndUtilities
  * @package   phpDocumentor2
  * @author    James Logsdon <jlogsdon@php.net>
+ * @author	  Shawn Stratton <sstratton@php.net>
  * @copyright 2010 phpDocumentor2 Team
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD
  * @link      http://www.github.com/mfacenet/phpDocumentor

@@ -57,8 +57,11 @@ class ClassLoader
         $classFile = str_replace($this->namespace, '', $className);
         $classFile = str_replace('\\', DIRECTORY_SEPARATOR, $classFile);
         $classFile = $this->path . $classFile . '.php';
-
-        include_once $classFile;
+        //Guard against invalid includes
+        if (file_exists($classFile))
+        {
+            include_once $classFile;
+        }
     }
 
     /**
