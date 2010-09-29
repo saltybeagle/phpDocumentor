@@ -14,8 +14,8 @@
 
 namespace PEAR2\phpDocumentor2;
 
-use \RegexIterator,
-    PEAR2\phpDocumentor2\Iterators\ArrayReduce;
+use \PEAR2\phpDocumentor2\Iterators\RegexIterator as RegexIterator;
+use \PEAR2\phpDocumentor2\Iterators\ArrayReduce as ArrayReduce;
 
 abstract class Locator
 {

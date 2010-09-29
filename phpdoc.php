@@ -14,20 +14,17 @@
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
 
-$__prefix__ = __DIR__ . '/src';
-$__file__ = '/Documentor.php';
+//Directory Prefix to phpDocumentor Components
+$_prefix = getenv('PHPDOC_PREFIX') ?: __DIR__ . DIRECTORY_SEPARATOR . 'src';
+$_file = '/Documentor.php';
 
-if ($_prefix = getenv('PHPDOC_PREFIX')) {
-    $__prefix__ = $_prefix;
-}
-
-if (is_file($__prefix__ . $__file__)) {
-    define('PHPDOC_PATH', $__prefix__);
+if (is_file($_prefix . $_file)) {
+    define('PHPDOC_PATH', $_prefix);
 } else {
     $paths = explode(PATH_SEPARATOR, get_include_path());
 
     foreach ($paths as $path) {
-        if (is_file($path . $__file__)) {
+        if (is_file($path . $_file)) {
             define('PHPDOC_PATH', $path);
             break;
         }
@@ -47,7 +44,15 @@ try {
     $cli = new PEAR2\phpDocumentor2\Console\Runner;
     $cli->run();
 } catch (Exception $e) {
-    echo '*** Error: ' . $e->getMessage() . "\n\n";
+    $message = sprintf(
+    	"*** Error: %s\n*** File: %s\n*** Line: %s\n*** Code: %s\n***Trace: %s\n\n",
+        $e->getMessage(),
+        $e->getFile(),
+        $e->getLine(),
+        $e->getCode(),
+        $e->getTraceAsString()
+     );
+    file_put_contents('php://stderr', $message);
 }
 
 ?>
