@@ -10,10 +10,10 @@
  * @link      	http://www.github.com/mfacenet/phpdocumentor
  */
 
-namespace PEAR2\phpDocumentor2\Tags;
+namespace PEAR2\phpDocumentor2\Tags\Abstracts;
 /**
  * Abstract base class that all tags are based on.
- * 
+ *
  * This abstract base implements the decorator pattern
  * allowing users to create new tags and changing the patterns
  * of the tags.
@@ -22,23 +22,23 @@ namespace PEAR2\phpDocumentor2\Tags;
  */
 abstract class Base {
 	protected $_tagContents;
-	
+
 	public function __construct($contents = null) {
 		$this->_tagContents = $contents;
 	}
-	
+
 	public function setContents($contents) {
 		$this->_tagContents = $contents;
 	}
-	
+
 	public function getContents() {
 		return $this->_tagContents;
 	}
-	
+
 	public function render() {
 		echo $this->_tagContents;
 	}
-	
-	
-	
+
+
+
 }

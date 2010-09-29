@@ -85,7 +85,7 @@ class Tokenizer
         $functions = array();
         $namespace = null;
 
-        while ($token = $this->nextToken()) {
+        while (($token = $this->nextToken()) != false) {
             if ($token[0] === T_NAMESPACE) {
                 $this->parseUntil(T_WHITESPACE);
 
@@ -129,7 +129,7 @@ class Tokenizer
     {
         $buffer = null;
 
-        while ($token = $this->nextToken()) {
+        while (($token = $this->nextToken()) != false) {
             if (!is_array($stop) && $token[0] === $stop) {
                 break;
             } else if (is_array($stop) && in_array($token[0], $stop, true)) {

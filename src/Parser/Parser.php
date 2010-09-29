@@ -14,7 +14,7 @@
 
 namespace PEAR2\phpDocumentor2\Parser;
 
-use PEAR2\phpDocumentor2\Parser\Tokenizer;
+use PEAR2\phpDocumentor2\Parser\Tokenizer as Tokenizer;
 
 /**
  * PHP parser

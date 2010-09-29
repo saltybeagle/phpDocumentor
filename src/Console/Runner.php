@@ -40,6 +40,7 @@ class Runner
      */
     public function run()
     {
+        //@todo Implement Pathing
         $builder = new \PEAR2\phpDocumentor2\Documentor('/home/sstratton/OpenSource/zf2/library/Zend/Validator/Hostname');
         $builder->run();
     }

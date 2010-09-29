@@ -11,13 +11,14 @@
  */
 
 namespace PEAR2\phpDocumentor2\Tags;
+use PEAR2\phpDocumentor2\Tags\Abstracts\Base as Base;
 /**
  * Category Tag Representation.
- * 
+ *
  * This abstract base implements the decorator pattern
  * allowing users to create new tags and changing the patterns
  * of the tags.
- * 
+ *
  * @author 		Shawn Stratton <sstratton@php.net>
  */
 class Category extends Base {

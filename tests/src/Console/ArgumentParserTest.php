@@ -12,7 +12,7 @@
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
 
-use PEAR2\phpDocumentor2\Console\ArgumentParser;
+use PEAR2\phpDocumentor2\Console\ArgumentParser as ArgumentParser;
 
 require_once 'PHPUnit/Framework/TestCase.php';
 
