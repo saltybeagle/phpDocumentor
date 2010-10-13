@@ -1,4 +1,4 @@
-<?php
+<?PHP
 /**
  * The file contains the abstract base.
  *
@@ -12,13 +12,15 @@
 
 namespace PEAR2\phpDocumentor2\Tags;
 
-class Namespaces extends Base {
-	/**
-	 * Implementation of a Decoration Renderer
-	 * 
-	 * @return string 
-	 */
-	public function render() {
-	
-	}
+class ReturnTag extends Base {
+    /**
+     * Implementation of a Decoration Renderer
+     *  
+     * @return string 
+     */
+    public function render() {
+
+    }
 }
+
+

@@ -1,5 +1,6 @@
 #!/usr/bin/env php
 <?php
+namespace PEAR2_tmp;
 /**
  * If your package does special stuff in phar format, use this file.  Remove if
  * no phar format is ever generated
@@ -28,7 +29,7 @@ try {
 ";
     exit -1;
 }
-function PEAR2_tmp/_autoload($class)
+function _autoload($class)
 {
     $class = str_replace(array('_', '\\'), '/', $class);
     if (file_exists('phar://' . __FILE__ . '/PEAR2_tmp/-0.2.0/php/' . $class . '.php')) {
@@ -43,7 +44,7 @@ define('PEAR2_tmp/_SIGTYPE', $sig['hash_type']);
 
 // your package-specific stuff here, for instance, here is what Pyrus does:
 
-$frontend = new \PEAR2\phpDocumentor2\core
+$frontend = new \PEAR2\phpDocumentor2\Documentor();
 @array_shift($_SERVER['argv']);
 $frontend->run($_SERVER['argv']);
 
