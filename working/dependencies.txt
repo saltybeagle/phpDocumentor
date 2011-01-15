@@ -1,0 +1,6 @@
+PEAR2_Autoload
+PEAR2_Console_CommandLine
+PEAR2_MultiErrors
+
+Optional 
+PEAR2_Templates_Savant

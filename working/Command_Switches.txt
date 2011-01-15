@@ -1,0 +1,11 @@
+target - Where to save files
+ignore - ignore files/directories
+follow-symlinks - default true
+verbose
+title
+help
+#parse-private
+#packages - whitelist, default all
+#categories - whitelist, default all
+#configuration - xml based configuration
+
