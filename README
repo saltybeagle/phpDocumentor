@@ -1,3 +1,17 @@
-This package is phpDocumentor2, based off of phpDocumentor 1.x (http://phpdoc.org)
+phpDocumentor2
+==============
 
-phpDocumentor parses Docblock comments into Documentation for your project.
+phpDocumentor2 is a natural evolution from phpDocumentor (http://phpdoc.org) which was written long ago and has since become an unmaintainable mess.
+
+Development
+-----------
+
+phpDocumentor2 is currently unusable as Development has not yet reached an alpha stage.  If you wish to help, please feel free to fork and contribute.
+
+Dependencies
+------------
+phpDocumentor2 is dependant upon the following Pear2 projects:
+
+* [PEAR2_Autoload] (http://pear2.php.net/PEAR2_Autoload)
+* [PEAR2_Console_CommandLine] (http://pear2.php.net/PEAR2_Console_CommandLine)
+* [PEAR2_Exception] (http://pear2.php.net/PEAR2_Exception)
