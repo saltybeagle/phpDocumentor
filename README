@@ -12,6 +12,6 @@ Dependencies
 ------------
 phpDocumentor2 is dependant upon the following Pear2 projects:
 
-* [PEAR2_Autoload] (http://pear2.php.net/PEAR2_Autoload)
-* [PEAR2_Console_CommandLine] (http://pear2.php.net/PEAR2_Console_CommandLine)
-* [PEAR2_Exception] (http://pear2.php.net/PEAR2_Exception)
+* [PEAR2_Autoload](http://pear2.php.net/PEAR2_Autoload)
+* [PEAR2_Console_CommandLine](http://pear2.php.net/PEAR2_Console_CommandLine)
+* [PEAR2_Exception](http://pear2.php.net/PEAR2_Exception)
