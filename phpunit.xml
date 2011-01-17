@@ -1,8 +1,18 @@
-<?xml version="1.0"?>
-<phpunit bootstrap="tests/bootstrap.php">
-	<testsuites>
-		<testsuite name="All Tests">
-			<directory>tests/src/</directory>
-		</testsuite>
-	</testsuites>
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="true"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         verbose="true"
+         strict="true">
+	<filter>
+		<blacklist>
+			<directory suffix=".php">user/</directory>
+			<directory suffix=".php">working</directory>
+		</blacklist>
+	</filter>
 </phpunit>
