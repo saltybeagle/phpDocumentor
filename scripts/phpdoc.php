@@ -23,7 +23,7 @@ require 'PEAR2/Autoload.php';
 
 try {
     $cli = new PEAR2\phpDocumentor2\Console\Runner;
-    //$cli->run();
+    $cli->run();
 } catch (Exception $e) {
     echo '*** Error: ' . $e->getMessage() . "\n\n";
 }
