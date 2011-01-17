@@ -6,6 +6,7 @@
  *
  * @category  ToolsAndUtilities
  * @package   phpDocumentor2
+ * @author    Shawn Stratton <sstratton@php.net>
  * @author    James Logsdon <jlogsdon@php.net>
  * @copyright 2010 phpDocumentor2 Team
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD
@@ -22,6 +23,7 @@ use PEAR2\phpDocumentor2\Injector as Injector,
  *
  * @category  ToolsAndUtilities
  * @package   phpDocumentor2
+ * @author    Shawn Stratton <sstratton@php.net>
  * @author    James Logsdon <jlogsdon@php.net>
  * @copyright 2010 phpDocumentor2 Team
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD
