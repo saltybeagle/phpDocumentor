@@ -2,6 +2,6 @@
 
 namespace PEAR2\phpDocumentor2\Parser;
 
-class Block implements Block_Interface {
+class Block implements Block {
 
 }

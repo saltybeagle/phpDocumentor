@@ -3,7 +3,7 @@
 namespace PEAR2\phpDocumentor2\Parser;
 use PEAR2\phpDocumentor2\Parser\File as File;
 
-class Directory implements Directory_Interface {
+class Directory implements Directory {
 
     protected $_directory;
     protected $_childDirectories = array();
