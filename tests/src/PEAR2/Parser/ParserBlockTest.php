@@ -1,13 +1,13 @@
 <?php
 /**
- * File test case.
+ * Block test case.
  */
-class FileTest extends PHPUnit_Framework_TestCase {
+class ParserBlockTest extends PHPUnit_Framework_TestCase {
 
 	/**
-	 * @var File
+	 * @var Block
 	 */
-	private $File;
+	private $Block;
 
 	/**
 	 * Prepares the environment before running a test.
@@ -15,10 +15,10 @@ class FileTest extends PHPUnit_Framework_TestCase {
 	protected function setUp() {
 		parent::setUp ();
 
-		// TODO Auto-generated FileTest::setUp()
+		// TODO Auto-generated BlockTest::setUp()
 
 
-		$this->File = new File(/* parameters */);
+		$this->Block = new Block(/* parameters */);
 
 	}
 
@@ -26,10 +26,10 @@ class FileTest extends PHPUnit_Framework_TestCase {
 	 * Cleans up the environment after running a test.
 	 */
 	protected function tearDown() {
-		// TODO Auto-generated FileTest::tearDown()
+		// TODO Auto-generated BlockTest::tearDown()
 
 
-		$this->File = null;
+		$this->Block = null;
 
 		parent::tearDown ();
 	}

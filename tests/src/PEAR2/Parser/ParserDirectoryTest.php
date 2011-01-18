@@ -2,7 +2,7 @@
 /**
  * Directory test case.
  */
-class DirectoryTest extends PHPUnit_Framework_TestCase {
+class ParserDirectoryTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @var Directory

@@ -2,7 +2,7 @@
 /**
  * Line test case.
  */
-class LineTest extends PHPUnit_Framework_TestCase {
+class ParserLineTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @var Line
