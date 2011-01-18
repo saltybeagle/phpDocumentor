@@ -15,8 +15,7 @@
 
 namespace PEAR2\phpDocumentor2;
 
-use PEAR2\phpDocumentor2\Injector as Injector,
-    PEAR2\phpDocumentor2\Locatorn as Locator;
+use PEAR2\phpDocumentor2\Locator as Locator;
 
 /**
  * Documentation builder
@@ -29,7 +28,7 @@ use PEAR2\phpDocumentor2\Injector as Injector,
  * @license   http://www.opensource.org/licenses/bsd-license.php BSD
  * @link      http://www.github.com/mfacenet/phpDocumentor
  */
-class Documentor extends Injector
+class Documentor
 {
     protected $classes = array(
         'locator' => 'PEAR2\phpDocumentor2\Locator\RegexLocator',
