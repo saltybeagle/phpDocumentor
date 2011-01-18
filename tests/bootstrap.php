@@ -8,5 +8,5 @@ date_default_timezone_set('America/New_York');
 //Iniitalize Autoloader (we're not require/require_once/include/include_once'ing
 //anything in the development environment).
 require_once 'PEAR2/Autoload.php';
-\PEAR2\Autoload::initialize(realpath(__DIR__ . '/../src');
+\PEAR2\Autoload::initialize(realpath(__DIR__ . '/../src'));
 ?>
