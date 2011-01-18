@@ -2,6 +2,6 @@
 
 namespace PEAR2\phpDocumentor2\Parser;
 
-class File implements File {
+class File implements Interfaces\File {
 
 }
