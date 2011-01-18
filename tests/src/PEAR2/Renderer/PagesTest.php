@@ -18,7 +18,7 @@ class PagesTest extends PHPUnit_Framework_TestCase {
 		// TODO Auto-generated PagesTest::setUp()
 
 
-		$this->Pages = new Pages(/* parameters */);
+		$this->Pages = new \PEAR2\phpDocumentor2\Renderer\Pages(/* parameters */);
 
 	}
 

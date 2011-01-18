@@ -18,7 +18,7 @@ class ClassesTest extends PHPUnit_Framework_TestCase {
 		// TODO Auto-generated ClassesTest::setUp()
 
 
-		$this->Classes = new Classes(/* parameters */);
+		$this->Classes = new \PEAR2\phpDocumentor2\Renderer\Classes(/* parameters */);
 
 	}
 

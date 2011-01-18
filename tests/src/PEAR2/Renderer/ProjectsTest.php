@@ -18,7 +18,7 @@ class ProjectsTest extends PHPUnit_Framework_TestCase {
 		// TODO Auto-generated ProjectsTest::setUp()
 
 
-		$this->Projects = new Projects(/* parameters */);
+		$this->Projects = new \PEAR2\phpDocumentor2\Renderer\Projects(/* parameters */);
 
 	}
 

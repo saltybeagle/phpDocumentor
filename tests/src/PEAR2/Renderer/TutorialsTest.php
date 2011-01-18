@@ -15,10 +15,7 @@ class TutorialsTest extends PHPUnit_Framework_TestCase {
 	protected function setUp() {
 		parent::setUp ();
 
-		// TODO Auto-generated TutorialsTest::setUp()
-
-
-		$this->Tutorials = new Tutorials(/* parameters */);
+		$this->Tutorials = new \PEAR2\phpDocumentor2\Renderer\Tutorials(/* parameters */);
 
 	}
 
@@ -47,7 +44,6 @@ class TutorialsTest extends PHPUnit_Framework_TestCase {
 	public function testRender() {
 		// TODO Auto-generated TutorialsTest->testRender()
 		$this->markTestIncomplete ( "render test not implemented" );
-
 		$this->Tutorials
 			->render(/* parameters */);
 

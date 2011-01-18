@@ -18,7 +18,7 @@ class PackagesTest extends PHPUnit_Framework_TestCase {
 		// TODO Auto-generated PackagesTest::setUp()
 
 
-		$this->Packages = new Packages(/* parameters */);
+		$this->Packages = new \PEAR2\phpDocumentor2\Renderer\Packages(/* parameters */);
 
 	}
 

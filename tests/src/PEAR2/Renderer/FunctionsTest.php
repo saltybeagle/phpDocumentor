@@ -18,7 +18,7 @@ class FunctionsTest extends PHPUnit_Framework_TestCase {
 		// TODO Auto-generated FunctionsTest::setUp()
 
 
-		$this->Functions = new Functions(/* parameters */);
+		$this->Functions = new \PEAR2\phpDocumentor2\Renderer\Functions(/* parameters */);
 
 	}
 
