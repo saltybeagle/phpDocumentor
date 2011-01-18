@@ -1,9 +1,7 @@
 <?php
-namespace PEAR2\phpDocumentor2\Renderer;
+namespace PEAR2\phpDocumentor2\Renderer\Interfaces;
 
 interface Renderer {
-	public function render() {
-	
-	}
+	public function render();
 }
 
