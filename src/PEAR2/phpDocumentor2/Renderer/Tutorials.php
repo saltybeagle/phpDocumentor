@@ -1,7 +1,7 @@
 <?php
 namespace PEAR2\phpDocumentor2\Renderer;
 
-class Tutorials implements Renderer_Interface {
+class Tutorials implements Renderer {
 	public function render() {
 	
 	}
