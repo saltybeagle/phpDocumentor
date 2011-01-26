@@ -25,7 +25,7 @@ try {
     $cli = new PEAR2\phpDocumentor2\Console\Runner;
     $cli->run();
 } catch (Exception $e) {
-    echo '*** Error: ' . $e->getMessage() . "\n\n";
+    fwrite('php://stderr',sprintf("*** Error: %s\n", $e->getMessage()));
 }
 
 ?>
