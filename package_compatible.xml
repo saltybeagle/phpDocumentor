@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.1" xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd">
+ <name>PEAR2_phpDocumentor</name>
+ <channel>pear2.php.net</channel>
+ <summary>phpDocumentor2&#13;
+</summary>
+ <description>==============&#13;
+&#13;
+phpDocumentor2 is a natural evolution from phpDocumentor (http://phpdoc.org) which was written long ago and has since become an unmaintainable mess.&#13;
+&#13;
+Development&#13;
+-----------&#13;
+&#13;
+phpDocumentor2 is currently unusable as Development has not yet reached an alpha stage.  If you wish to help, please feel free to fork and contribute.&#13;
+&#13;
+Dependencies&#13;
+------------&#13;
+phpDocumentor2 is dependant upon the following Pear2 projects:&#13;
+&#13;
+* [PEAR2_Autoload](http://pear2.php.net/PEAR2_Autoload)&#13;
+* [PEAR2_Console_CommandLine](http://pear2.php.net/PEAR2_Console_CommandLine)&#13;
+* [PEAR2_Exception](http://pear2.php.net/PEAR2_Exception)&#13;
+</description>
+ <lead>
+  <name>Shawn Stratton</name>
+  <user>mfacenet</user>
+  <email>sstratton@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-21</date>
+ <time>17:19:38</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>devel</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <contents>
+  <dir name="/">
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tokenizer/src/PEAR2/Tokenizer/FileTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tokenizer/src/PEAR2/Tokenizer/BlockTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/VersionTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/VarsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/TutorialTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/TodoTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ThrowsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SubpackageTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SinceTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SeeTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ReturnsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ParamTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/PackageTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/NamespacesTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/LinkTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/LicenseTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/FilesourceTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ExampleTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/DeprecatedTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/CopyrightTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/CategoryTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/BugTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/AuthorTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/AbstractsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/src/PEAR2/DocumentorTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/TutorialsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/ProjectsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/PagesTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/PackagesTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/FunctionsTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/ClassesTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserLineTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserFileTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserDirectoryTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserBlockTest.php"/>
+   <file role="test" name="test/pear2.php.net/PEAR2_phpDocumentor/bootstrap.php"/>
+   <file role="script" name="script/phpdoc.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tokenizer/Interfaces/File.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tokenizer/Interfaces/Block.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tokenizer/File.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tokenizer/Block.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Version.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/VarTag.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Tutorial.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Todo.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Throws.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Subpackage.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Since.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/See.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/ReturnTag.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Param.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Package.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/NamespaceTag.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Link.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/License.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Filesource.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Example.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Deprecated.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Copyright.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Category.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Bug.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Base.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Tags/Author.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Storage/Adapters/Sqlite.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Storage/Adapters/Interfaces/Adapter.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Storage/Adapters/Base.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Runners/Console.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Runners/Base.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Tutorials.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Projects.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Pages.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Packages.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Interfaces/Renderer.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Functions.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Renderer/Classes.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Tokenizer.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Parser.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Line.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Parser.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Line.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Interfaces/File.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Directory.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Block.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/File.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Directory.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Parser/Block.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Iterators/ArrayReduce.php"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Config/console-options.xml"/>
+   <file role="php" name="php/PEAR2/phpDocumentor2/Config/bindings.xml"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.8</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install name="php/PEAR2/phpDocumentor2/Config/bindings.xml" as="PEAR2/phpDocumentor2/Config/bindings.xml"/>
+   <install name="php/PEAR2/phpDocumentor2/Config/console-options.xml" as="PEAR2/phpDocumentor2/Config/console-options.xml"/>
+   <install name="php/PEAR2/phpDocumentor2/Iterators/ArrayReduce.php" as="PEAR2/phpDocumentor2/Iterators/ArrayReduce.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Block.php" as="PEAR2/phpDocumentor2/Parser/Block.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Directory.php" as="PEAR2/phpDocumentor2/Parser/Directory.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/File.php" as="PEAR2/phpDocumentor2/Parser/File.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Block.php" as="PEAR2/phpDocumentor2/Parser/Interfaces/Block.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Directory.php" as="PEAR2/phpDocumentor2/Parser/Interfaces/Directory.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Interfaces/File.php" as="PEAR2/phpDocumentor2/Parser/Interfaces/File.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Line.php" as="PEAR2/phpDocumentor2/Parser/Interfaces/Line.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Interfaces/Parser.php" as="PEAR2/phpDocumentor2/Parser/Interfaces/Parser.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Line.php" as="PEAR2/phpDocumentor2/Parser/Line.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Parser.php" as="PEAR2/phpDocumentor2/Parser/Parser.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Parser/Tokenizer.php" as="PEAR2/phpDocumentor2/Parser/Tokenizer.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Classes.php" as="PEAR2/phpDocumentor2/Renderer/Classes.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Functions.php" as="PEAR2/phpDocumentor2/Renderer/Functions.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Interfaces/Renderer.php" as="PEAR2/phpDocumentor2/Renderer/Interfaces/Renderer.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Packages.php" as="PEAR2/phpDocumentor2/Renderer/Packages.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Pages.php" as="PEAR2/phpDocumentor2/Renderer/Pages.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Projects.php" as="PEAR2/phpDocumentor2/Renderer/Projects.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Renderer/Tutorials.php" as="PEAR2/phpDocumentor2/Renderer/Tutorials.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Runners/Base.php" as="PEAR2/phpDocumentor2/Runners/Base.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Runners/Console.php" as="PEAR2/phpDocumentor2/Runners/Console.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Storage/Adapters/Base.php" as="PEAR2/phpDocumentor2/Storage/Adapters/Base.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Storage/Adapters/Interfaces/Adapter.php" as="PEAR2/phpDocumentor2/Storage/Adapters/Interfaces/Adapter.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Storage/Adapters/Sqlite.php" as="PEAR2/phpDocumentor2/Storage/Adapters/Sqlite.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Author.php" as="PEAR2/phpDocumentor2/Tags/Author.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Base.php" as="PEAR2/phpDocumentor2/Tags/Base.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Bug.php" as="PEAR2/phpDocumentor2/Tags/Bug.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Category.php" as="PEAR2/phpDocumentor2/Tags/Category.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Copyright.php" as="PEAR2/phpDocumentor2/Tags/Copyright.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Deprecated.php" as="PEAR2/phpDocumentor2/Tags/Deprecated.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Example.php" as="PEAR2/phpDocumentor2/Tags/Example.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Filesource.php" as="PEAR2/phpDocumentor2/Tags/Filesource.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/License.php" as="PEAR2/phpDocumentor2/Tags/License.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Link.php" as="PEAR2/phpDocumentor2/Tags/Link.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/NamespaceTag.php" as="PEAR2/phpDocumentor2/Tags/NamespaceTag.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Package.php" as="PEAR2/phpDocumentor2/Tags/Package.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Param.php" as="PEAR2/phpDocumentor2/Tags/Param.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/ReturnTag.php" as="PEAR2/phpDocumentor2/Tags/ReturnTag.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/See.php" as="PEAR2/phpDocumentor2/Tags/See.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Since.php" as="PEAR2/phpDocumentor2/Tags/Since.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Subpackage.php" as="PEAR2/phpDocumentor2/Tags/Subpackage.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Throws.php" as="PEAR2/phpDocumentor2/Tags/Throws.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Todo.php" as="PEAR2/phpDocumentor2/Tags/Todo.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Tutorial.php" as="PEAR2/phpDocumentor2/Tags/Tutorial.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/VarTag.php" as="PEAR2/phpDocumentor2/Tags/VarTag.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tags/Version.php" as="PEAR2/phpDocumentor2/Tags/Version.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tokenizer/Block.php" as="PEAR2/phpDocumentor2/Tokenizer/Block.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tokenizer/File.php" as="PEAR2/phpDocumentor2/Tokenizer/File.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tokenizer/Interfaces/Block.php" as="PEAR2/phpDocumentor2/Tokenizer/Interfaces/Block.php"/>
+   <install name="php/PEAR2/phpDocumentor2/Tokenizer/Interfaces/File.php" as="PEAR2/phpDocumentor2/Tokenizer/Interfaces/File.php"/>
+   <install name="script/phpdoc.php" as="phpdoc.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/bootstrap.php" as="PEAR2_phpDocumentor/bootstrap.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserBlockTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserBlockTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserDirectoryTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserDirectoryTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserFileTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserFileTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserLineTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Parser/src/PEAR2/Parser/ParserLineTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/ClassesTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/ClassesTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/FunctionsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/FunctionsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/PackagesTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/PackagesTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/PagesTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/PagesTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/ProjectsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/ProjectsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/TutorialsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Renderer/src/PEAR2/Renderer/TutorialsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/src/PEAR2/DocumentorTest.php" as="PEAR2_phpDocumentor/src/PEAR2/src/PEAR2/DocumentorTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/AbstractsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/AbstractsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/AuthorTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/AuthorTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/BugTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/BugTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/CategoryTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/CategoryTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/CopyrightTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/CopyrightTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/DeprecatedTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/DeprecatedTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ExampleTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ExampleTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/FilesourceTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/FilesourceTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/LicenseTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/LicenseTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/LinkTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/LinkTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/NamespacesTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/NamespacesTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/PackageTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/PackageTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ParamTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ParamTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ReturnsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ReturnsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SeeTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SeeTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SinceTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SinceTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SubpackageTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/SubpackageTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ThrowsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/ThrowsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/TodoTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/TodoTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/TutorialTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/TutorialTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/VarsTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/VarsTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/VersionTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tags/src/PEAR2/Tags/VersionTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tokenizer/src/PEAR2/Tokenizer/BlockTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tokenizer/src/PEAR2/Tokenizer/BlockTest.php"/>
+   <install name="test/pear2.php.net/PEAR2_phpDocumentor/src/PEAR2/Tokenizer/src/PEAR2/Tokenizer/FileTest.php" as="PEAR2_phpDocumentor/src/PEAR2/Tokenizer/src/PEAR2/Tokenizer/FileTest.php"/>
+  </filelist>
+ </phprelease>
+</package>
