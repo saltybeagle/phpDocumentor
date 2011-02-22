@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.1" xmlns="http://pear.php.net/dtd/package-2.1" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.1     http://pear.php.net/dtd/package-2.1.xsd">
+ <name>PEAR2_phpDocumentor</name>
+ <channel>pear2.php.net</channel>
+ <summary>phpDocumentor2&#13;
+</summary>
+ <description>==============&#13;
+&#13;
+phpDocumentor2 is a natural evolution from phpDocumentor (http://phpdoc.org) which was written long ago and has since become an unmaintainable mess.&#13;
+&#13;
+Development&#13;
+-----------&#13;
+&#13;
+phpDocumentor2 is currently unusable as Development has not yet reached an alpha stage.  If you wish to help, please feel free to fork and contribute.&#13;
+&#13;
+Dependencies&#13;
+------------&#13;
+phpDocumentor2 is dependant upon the following Pear2 projects:&#13;
+&#13;
+* [PEAR2_Autoload](http://pear2.php.net/PEAR2_Autoload)&#13;
+* [PEAR2_Console_CommandLine](http://pear2.php.net/PEAR2_Console_CommandLine)&#13;
+* [PEAR2_Exception](http://pear2.php.net/PEAR2_Exception)&#13;
+</description>
+ <lead>
+  <name>Shawn Stratton</name>
+  <user>mfacenet</user>
+  <email>sstratton@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-21</date>
+ <time>17:19:38</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>Package PEAR2_phpDocumentor release notes for version 0.1.0.
+
+Package PEAR2_phpDocumentor API release notes for version 0.1.0.</notes>
+ <contents>
+  <dir name="/">
+   <dir name="scripts" baseinstalldir="/">
+    <file role="script" name="phpdoc.php"/>
+   </dir>
+   <dir name="src" baseinstalldir="/">
+    <dir name="PEAR2">
+     <dir name="phpDocumentor2">
+      <dir name="Config">
+       <file role="php" name="bindings.xml"/>
+       <file role="php" name="console-options.xml"/>
+      </dir>
+      <dir name="Iterators">
+       <file role="php" name="ArrayReduce.php"/>
+      </dir>
+      <dir name="Parser">
+       <dir name="Interfaces">
+        <file role="php" name="Block.php"/>
+        <file role="php" name="Directory.php"/>
+        <file role="php" name="File.php"/>
+        <file role="php" name="Line.php"/>
+        <file role="php" name="Parser.php"/>
+       </dir>
+       <file role="php" name="Block.php"/>
+       <file role="php" name="Directory.php"/>
+       <file role="php" name="File.php"/>
+       <file role="php" name="Line.php"/>
+       <file role="php" name="Parser.php"/>
+       <file role="php" name="Tokenizer.php"/>
+      </dir>
+      <dir name="Renderer">
+       <dir name="Interfaces">
+        <file role="php" name="Renderer.php"/>
+       </dir>
+       <file role="php" name="Classes.php"/>
+       <file role="php" name="Functions.php"/>
+       <file role="php" name="Packages.php"/>
+       <file role="php" name="Pages.php"/>
+       <file role="php" name="Projects.php"/>
+       <file role="php" name="Tutorials.php"/>
+      </dir>
+      <dir name="Runners">
+       <file role="php" name="Base.php"/>
+       <file role="php" name="Console.php"/>
+      </dir>
+      <dir name="Storage">
+       <dir name="Adapters">
+        <dir name="Interfaces">
+         <file role="php" name="Adapter.php"/>
+        </dir>
+        <file role="php" name="Base.php"/>
+        <file role="php" name="Sqlite.php"/>
+       </dir>
+      </dir>
+      <dir name="Tags">
+       <file role="php" name="Author.php"/>
+       <file role="php" name="Base.php"/>
+       <file role="php" name="Bug.php"/>
+       <file role="php" name="Category.php"/>
+       <file role="php" name="Copyright.php"/>
+       <file role="php" name="Deprecated.php"/>
+       <file role="php" name="Example.php"/>
+       <file role="php" name="Filesource.php"/>
+       <file role="php" name="License.php"/>
+       <file role="php" name="Link.php"/>
+       <file role="php" name="NamespaceTag.php"/>
+       <file role="php" name="Package.php"/>
+       <file role="php" name="Param.php"/>
+       <file role="php" name="ReturnTag.php"/>
+       <file role="php" name="See.php"/>
+       <file role="php" name="Since.php"/>
+       <file role="php" name="Subpackage.php"/>
+       <file role="php" name="Throws.php"/>
+       <file role="php" name="Todo.php"/>
+       <file role="php" name="Tutorial.php"/>
+       <file role="php" name="VarTag.php"/>
+       <file role="php" name="Version.php"/>
+      </dir>
+      <dir name="Tokenizer">
+       <dir name="Interfaces">
+        <file role="php" name="Block.php"/>
+        <file role="php" name="File.php"/>
+       </dir>
+       <file role="php" name="Block.php"/>
+       <file role="php" name="File.php"/>
+      </dir>
+     </dir>
+    </dir>
+   </dir>
+   <dir name="tests" baseinstalldir="/">
+    <dir name="src" baseinstalldir="/">
+     <dir name="PEAR2">
+      <dir name="Parser">
+       <file role="test" name="ParserBlockTest.php"/>
+       <file role="test" name="ParserDirectoryTest.php"/>
+       <file role="test" name="ParserFileTest.php"/>
+       <file role="test" name="ParserLineTest.php"/>
+      </dir>
+      <dir name="Renderer">
+       <file role="test" name="ClassesTest.php"/>
+       <file role="test" name="FunctionsTest.php"/>
+       <file role="test" name="PackagesTest.php"/>
+       <file role="test" name="PagesTest.php"/>
+       <file role="test" name="ProjectsTest.php"/>
+       <file role="test" name="TutorialsTest.php"/>
+      </dir>
+      <dir name="Tags">
+       <file role="test" name="AbstractsTest.php"/>
+       <file role="test" name="AuthorTest.php"/>
+       <file role="test" name="BugTest.php"/>
+       <file role="test" name="CategoryTest.php"/>
+       <file role="test" name="CopyrightTest.php"/>
+       <file role="test" name="DeprecatedTest.php"/>
+       <file role="test" name="ExampleTest.php"/>
+       <file role="test" name="FilesourceTest.php"/>
+       <file role="test" name="LicenseTest.php"/>
+       <file role="test" name="LinkTest.php"/>
+       <file role="test" name="NamespacesTest.php"/>
+       <file role="test" name="PackageTest.php"/>
+       <file role="test" name="ParamTest.php"/>
+       <file role="test" name="ReturnsTest.php"/>
+       <file role="test" name="SeeTest.php"/>
+       <file role="test" name="SinceTest.php"/>
+       <file role="test" name="SubpackageTest.php"/>
+       <file role="test" name="ThrowsTest.php"/>
+       <file role="test" name="TodoTest.php"/>
+       <file role="test" name="TutorialTest.php"/>
+       <file role="test" name="VarsTest.php"/>
+       <file role="test" name="VersionTest.php"/>
+      </dir>
+      <dir name="Tokenizer">
+       <file role="test" name="BlockTest.php"/>
+       <file role="test" name="FileTest.php"/>
+      </dir>
+      <file role="test" name="DocumentorTest.php"/>
+     </dir>
+    </dir>
+    <file role="test" name="bootstrap.php"/>
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>2.0.0a1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease/>
+</package>
